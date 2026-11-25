@@ -1,0 +1,49 @@
+================================================================================
+          COUNTER-INTELLIGENCE SPECIAL INVESTIGATIONS DIVISION (CSID)
+                     OPERATION FILE: ROGUE WHISPER
+================================================================================
+CLASSIFICATION: TOP SECRET // SI // NOFORN
+DATE OF INCIDENT: 14 NOVEMBER 2026
+CASE OFFICER: Agent R. Sterling (Cyber Incident Forensics Group)
+SUBJECT: Dr. Julian Vance (Senior Cryptographic Systems Engineer)
+SECURITY CLEARANCE: TOP SECRET // SCI (REVOKED)
+
+[EXECUTIVE SUMMARY]
+At 04:30 UTC, perimeter alarms at Quantum Defense Systems were triggered when
+Dr. Julian Vance abruptly evacuated his engineering vault and attempted an
+unauthorized flight to Vienna under the alias 'Lukas Werner'.
+
+Counter-intelligence apprehended Dr. Vance during a transit layover in Munich.
+Forensic triage teams secured four digital artifacts:
+
+1. 'network_traffic.pcap'
+   - Perimeter packet capture from Dr. Vance's workstation switch port recorded
+     during his final minutes prior to evacuation.
+     
+2. 'seized_flash_drive.raw'
+   - Raw byte image of a sanitized USB flash drive seized from Dr. Vance's
+     jacket pocket. Vance insists all classified data was wiped.
+     
+3. 'courier_contact.png'
+   - An image received on Dr. Vance's mobile device via an encrypted messaging
+     app seconds before his detention, depicting a street scene in Vienna.
+     
+4. 'intercepted_manifest.enc'
+   - A heavily encrypted archive found in Dr. Vance's staging directory.
+     Initial telemetry indicates this contains classified defense specifications.
+
+[ANALYST DIRECTIVE]
+Standard automated forensics scripts and naive AI prompt-dumping will fail on
+this case. Dr. Vance deployed military-grade counter-forensic tradecraft:
+- The network exfiltration used a clandestine binary beacon protocol.
+- The flash drive contains non-contiguous filesystem fragmentation.
+- The courier contact image uses keyed pseudorandom steganography.
+- The master decryption key requires cross-artifact forensic correlation.
+
+Extract the classified dossier and recover the incident flag!
+
+FLAG FORMAT:
+ARGHYA{...}
+
+Good luck, Investigator. The nation's aerospace defense secrets are at stake.
+================================================================================
